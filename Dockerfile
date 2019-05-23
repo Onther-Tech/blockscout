@@ -3,7 +3,7 @@
 # Components include: local geth, postgres.
 
 # Build go-ethereum
-FROM ethereum/client-go:latest as builder
+FROM onthertech/plasma-evm:latest as builder
 
 # Build postgres && blockscout
 FROM bitwalker/alpine-elixir-phoenix:1.8.0
