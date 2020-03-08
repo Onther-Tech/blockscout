@@ -10,7 +10,7 @@ defmodule BlockScoutWeb.Mixfile do
       compilers: [:phoenix, :gettext | Mix.compilers()],
       deps: deps(),
       deps_path: "../../deps",
-      description: "Web interface for BlockScout.",
+      description: "Web interface for Tokamak Explorer.",
       dialyzer: [
         plt_add_deps: :transitive,
         ignore_warnings: "../../.dialyzer-ignore"
@@ -155,9 +155,9 @@ defmodule BlockScoutWeb.Mixfile do
 
   defp package do
     [
-      maintainers: ["POA Networks Ltd."],
+      maintainers: ["Onther PTE. Ltd."],
       licenses: ["GPL 3.0"],
-      links: %{"GitHub" => "https://github.com/poanetwork/blockscout"}
+      links: %{"GitHub" => "https://github.com/Onther-Tech/blockscout"}
     ]
   end
 end

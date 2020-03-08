@@ -3,7 +3,7 @@ defmodule BlockScoutWeb.LayoutView do
 
   alias Plug.Conn
 
-  @issue_url "https://github.com/poanetwork/blockscout/issues/new"
+  @issue_url "https://github.com/Onther-Tech/blockscout/issues/new"
 
   alias BlockScoutWeb.SocialMedia
 
@@ -12,15 +12,15 @@ defmodule BlockScoutWeb.LayoutView do
   end
 
   def logo do
-    Keyword.get(application_config(), :logo) || "/images/blockscout_logo.svg"
+    Keyword.get(application_config(), :logo) || "/images/tokamak.png"
   end
 
   def subnetwork_title do
-    Keyword.get(application_config(), :subnetwork) || "Sokol Testnet"
+    "Faraday Testnet"
   end
 
   def network_title do
-    Keyword.get(application_config(), :network) || "POA"
+    "Tokamak Network"
   end
 
   defp application_config do

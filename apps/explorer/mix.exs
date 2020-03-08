@@ -140,9 +140,9 @@ defmodule Explorer.Mixfile do
 
   defp package do
     [
-      maintainers: ["POA Networks Ltd."],
+      maintainers: ["Onther Pte Ltd."],
       licenses: ["GPL 3.0"],
-      links: %{"GitHub" => "https://github.com/poanetwork/blockscout"}
+      links: %{"GitHub" => "https://github.com/Onther-Tech/blockscout"}
     ]
   end
 end

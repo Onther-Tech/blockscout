@@ -45,7 +45,7 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/layout/_default_title.html.eex:2
-msgid "%{subnetwork} Explorer - BlockScout"
+msgid "%{subnetwork} Explorer"
 msgstr ""
 
 #, elixir-format
@@ -83,7 +83,7 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/api_docs/_metatags.html.eex:2
-msgid "API for the %{subnetwork} - BlockScout"
+msgid "API for the %{subnetwork}"
 msgstr ""
 
 #, elixir-format
@@ -171,7 +171,7 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/chain/_metatags.html.eex:4
-msgid "BlockScout provides analytics data, API, and Smart Contract tools for the %{subnetwork}"
+msgid "Tokamak Explorer provides analytics data, API, and Smart Contract tools for the %{subnetwork}"
 msgstr ""
 
 #, elixir-format
@@ -1206,7 +1206,7 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/api_docs/index.html.eex:7
-msgid "This API is provided for developers transitioning their applications from Etherscan to BlockScout. It supports GET and POST requests."
+msgid "This API is provided for developers transitioning their applications from Etherscan to Tokamak Explorer. It supports GET and POST requests."
 msgstr ""
 
 #, elixir-format
@@ -1518,7 +1518,7 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/layout/_footer.html.eex:29
-msgid "Blockscout is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum Networks."
+msgid "Tokamak Explorer is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum Networks."
 msgstr ""
 
 #, elixir-format
